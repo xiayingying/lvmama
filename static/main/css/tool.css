@@ -1,0 +1,44 @@
+.text-left{
+	text-align: left;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.text-right{
+	text-align: right;
+}
+
+.clear:after{
+	display: block;
+	content: ' ';
+	clear: both;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+.mt-sm{
+	margin-top: 10px;
+}
+
+.mt{
+	margin-top: 20px;
+}
+
+.mt-lg{
+	margin-top: 30px;
+}
+
+.dotted-line{
+	border-bottom: 1px dotted #ddd;
+}
+.mt-50{
+	margin-top:50px ;
+} 

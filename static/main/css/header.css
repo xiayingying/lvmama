@@ -1,0 +1,331 @@
+.header{
+}
+.header-topbar{
+	font-size: 12px;
+	color: #6C6C6C;
+	height: 30px;
+	background: #FAFAFA;
+}
+.logo {
+	color: #6c6c6c;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 10px;
+}
+
+.logo-1 {
+	color: #666;
+	font-weight: 800;
+}
+
+.logo-2 {
+	color: #999;
+}
+
+.logo-z {
+	margin-left: 20px;
+	height: 30px;
+}
+
+.lv {
+	padding: 0 5px;
+	border-right: 1px solid #999;
+	height: 30px;
+	line-height: 30px;
+}
+
+.lv:last-child {
+	border-right: 0;
+}
+
+.logo-z a img {
+	vertical-align: middle;
+}
+
+.logo-y {}
+
+.logo-y li {
+	float: left;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 10px;
+}
+
+.dropdown {
+	position: relative;
+}
+
+.lv_link {
+	padding: 0 17px 0 10px;
+	position: relative;
+	z-index: 3;
+}
+
+.top_down {
+	position: absolute;
+	padding: 5px;
+	left: -1px;
+	top: 21px;
+	border: #ddd solid 1px;
+	z-index: 1;
+	display: none;
+	background: #fff;
+}
+
+.logo-y li.border_l {
+	border-left: #CCC solid 1px;
+}
+
+.dropdown {
+	position: relative;
+}
+
+.lv_link_wx {
+	padding: 0 3px 0 6px;
+}
+
+.icon_wx {
+	background-position: -20px -90px;
+}
+
+.lv_icon {
+	float: left;
+	width: 17px;
+	height: 17px;
+	margin: 7px 3px 0 0;
+}
+
+.lv_icon,
+.lv_baozhang i {
+	display: inline-block;
+	overflow: hidden;
+	background: url(/../img/v6/header_icon.png) no-repeat;
+	_background: url(/../img/v6/header_icon8.png) no-repeat;
+}
+
+.lv_link_xcx {
+	padding: 0 3px 0 6px;
+}
+
+.lv_link_wb {
+	padding: 0 1px 0 6px;
+}
+
+.icon_mobile {
+	background-position: 0 -130px;
+}
+
+.link_call {
+	font-family: Arial;
+	font-size: 14px;
+}
+
+.top_down span {
+	display: inline-block;
+	width: 174px;
+	height: 39px;
+	background-position: -300px 0;
+}
+
+.phone-num {
+	height: 18px;
+	line-height: 18px;
+	padding: 0 74px 0 0;
+	color: #E38;
+	font-size: 18px;
+	text-align: right;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	margin-top: -19px;
+}
+
+.phone-num-abroad {
+	height: 18px;
+	line-height: 18px;
+	padding: 0 10px 0 0;
+	color: #E38;
+	font-size: 18px;
+	text-align: left;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	margin: 5px 0 0 0;
+}
+
+.icon_arrow {
+	display: inline-block;
+	width: 0;
+	height: 0;
+	font-size: 0;
+	overflow: hidden;
+	border: #FAFAFA solid 3px;
+	border-top-color: #9F9F9F;
+	position: absolute;
+	right: 8px;
+	top: 13px;
+}
+
+
+
+
+.header-main{
+	position: relative;
+}
+.header-main .jgbz{
+	margin-top:20px ;
+}
+.jgbz li{
+	float:left;
+	width:68px;
+}
+.jgbz li i {
+    display: block;
+    margin: 0 auto;
+    width: 28px;
+    height: 28px;
+}
+.header-mai img {
+	margin-top: 5px;
+}
+
+.header-tupian {
+	margin-left: 10px;
+	width: 140px;
+	height: 70px;
+}
+
+.shousuokuang {
+	width: 470px;
+	border: 1px solid #EE3388;
+	height: 36px;
+	line-height: 36px;
+	margin-top: 25px;
+}
+.shousuokuang .lv_search {
+	width:287px;
+}
+.lv_search {
+	float: left;
+	border: none;
+	height: 32px;
+	line-height: 20px;
+	padding:0 10px;
+	outline: none;
+	color: #666;
+	font-size: 12px;
+}
+
+.w_260 {
+	width: 200px;
+}
+
+.search_city {
+	float: left;
+	height: 36px;
+	width: 117px;
+	position: relative;
+}
+
+.btn_city {
+	height: 36px;
+	padding-left: 10px;
+	line-height: 36px;
+	color: #666;
+	font-size: 12px;
+	font-weight: normal;
+	border-right: #ddd solid 1px;
+	position: relative;
+	cursor: pointer;
+}
+
+.btn_city b {
+	font-size: 12px;
+	color:#9F9F9F;
+}
+
+.btn_city span {
+	margin-left: 20px;
+}
+
+ 
+
+.header-mai .ul{
+	margin-top: 20px;
+}
+
+.header-mai .ul li{
+	float: left;
+	width: 68px;
+	text-align: center;
+	color: #999;
+	font-weight: 400;
+}
+
+.header-mai i{
+	display: block;
+	margin: 0 auto;
+	width: 28px;
+	height: 28px;
+}
+
+.icon_bz1 {
+	background-position: -605px -50px;
+}
+
+.icon_bz2 {
+	background-position: -605px -80px;
+}
+
+.icon_bz3 {
+	background-position: -605px -110px;
+}
+
+.icon_bz4 {
+	background-position: -605px -140px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.header-nav {
+	background: #d37;
+}
+
+.header-nav .ul {
+	height: 44px;
+	line-height: 44px;
+}
+
+.header-nav .ul li {
+	float: left;
+	height: 44px;
+}
+
+.header-nav .ul li a {
+	display: inline-block;
+	height: 44px;
+	font-size: 16px;
+	padding: 0 12px;
+	color: #fff;
+}
+
+.icon_triangle {
+	display: block;
+	width: 9px;
+	height: 6px;
+	position: absolute;
+	top: 19px;
+	right: 5px;
+	background: url(/../img/v6/header_icon.png) -130px -300px;
+	_background: url(/../img/v6/header_icon8.png) -130px -300px;
+}
+
+
+

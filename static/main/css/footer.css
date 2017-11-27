@@ -1,0 +1,174 @@
+.footer{
+	
+}
+.footer-1{
+	background:#DD3377 ;
+}
+
+.footer-1 .ul {
+    height: 70px;
+    padding: 10px 0;
+}
+.footer-1 .ul li {
+    height: 50px;
+    float: left;
+    width: 25%;
+    border-left: #E25A91 solid 1px;
+    color: #fff;
+    text-align: center;
+}
+.footer-1 .ul i {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin: 0 10px 0 20px;
+    background: url(/../img/v6/header_icon.png) no-repeat;
+    _background: url(/../img/v6/header_icon8.png) no-repeat;
+}
+strong, b {
+    font-weight: bold;
+}
+ .ft_ioc2 {
+    background-position: -520px 0;
+}
+.footer-2 {
+    background: #2F3F4F;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.footer-2 .ul{
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+
+.footer-2 .ul li {
+    width: 148px;
+    float: left;
+    border-right: #000 dashed 1px;
+    padding: 0 0 0 15px;
+    height: 210px;
+}
+.footer-2 .ul dt {
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 20px;
+}
+.fot_call {
+    color: #ED3377;
+    font-family: Arial;
+    font-size: 20px;
+}
+.footer-2 dd {
+    line-height: 24px;
+    font-size: 12px;
+}
+
+.footer_dy {
+    width: 230px;
+    float: right;
+    padding-left: 5px;
+}
+.footer_dy .mt_0 {
+    margin-top: 0;
+}
+.footer_dy h4 {
+    margin-top: 12px;
+    line-height: 22px;
+    padding-bottom: 8px;
+    font-size: 16px;
+    font-weight: normal;
+}
+.footer_dy input {
+    width: 150px;
+    height: 30px;
+    float: left;
+}
+.footer_dy a {
+    float: left;
+    width: 50px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    color: #fff;
+    background: #e38;
+    font-weight: bold;
+    font-size: 12px;
+}
+.srk {
+    height: 30px;
+}
+.ewm-content {
+    height: 50px;
+    background: #fff;
+    margin-top: 10px;
+}
+.tel {
+    margin-top: 10px;
+    line-height: 24px;
+    font-size: 12px;
+}
+
+.footer-3{
+	
+}
+.footer-31 {
+    padding: 10px 0;
+}
+.wenzhi-content {
+    text-align: center;
+    line-height: 20px;
+    color: #666;
+}
+.footer-32{
+	height:40px;
+}
+
+.footer-32 li {
+    background-image:url(/img/home/17/footer_honour.png);
+    float: left;
+    display: inline;
+    height: 40px;
+}
+.footer-32 li  a {
+    display: block;
+    height: 40px;
+}
+.honour_miibeian {
+    background-position: 0 0;
+    width: 46px;
+}
+.honour_cyberpolice {
+    background-position: 0 -40px;
+    width: 46px;
+}
+.honour_dianping {
+    background-position: 0 -520px;
+    width: 91px;
+}
+
+
+.footer-33 {
+}
+.jtwz {
+    height: 20px;
+    line-height: 20px;
+}
+.jituan {
+    float: left;
+    color: #CCCCCC;
+    width: 70px;
+}
+.wangzhan {
+    width: 1050px;
+    float: left;
+}
+.wangzhan li {
+    width: 100px;
+    margin-right: 10px;
+    color: #999999;
+    float: left;
+}
+.gengduo {
+    float: right;
+    color: #999999;
+}

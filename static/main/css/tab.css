@@ -1,0 +1,206 @@
+#tab2 {
+	width: 560px;
+	height: 360px;
+	background: #fff;
+}
+
+#tab2>.tab-title-area>.tab-title>.tab-title-item {
+	height: 45px;
+	line-height: 40px;
+	width: 80px;
+	border-bottom: 1px solid #333333;
+	color: #fff;
+	background: #4D6072;
+	font-weight: bold;
+	font-size: 13px;
+	text-align: center;
+}
+
+#tab2>.tab-title-area>.tab-title>.tab-title-item:last-child {
+	border-bottom: 0;
+}
+
+#tab2>.tab-title-area>.tab-title>.tab-title-item.active {
+	color: #e38;
+	background: #fff;
+	border-left: 3px solid #e38;
+}
+
+#tab2>.tab-content-area>.tab-content>.tab-content-item {
+	background: #fff;
+	width: 480px;
+	height: 320px;
+	padding: 0 20px;
+}
+
+#biqiang {
+	height: 300px;
+	width: 100%;
+}
+
+#biqiang>.tab-title-area {
+	border-bottom: 2px solid #ddd;
+}
+
+#biqiang>.tab-title-area>.tab-title {
+	height: 45px;
+	line-height: 40px;
+}
+
+#biqiang>.tab-title-area>.tab-title>.tab-title-item {
+	margin-right: 30px;
+	height: 45px;
+	line-height: 40px;
+	color: #666;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#biqiang>.tab-content-area>.tab-content>.tab-content-item {
+	background: #fff;
+	width: 100%;
+	height: 260px;
+	margin-top: 20px;
+}
+
+
+/*TAB的通用标题*/
+
+.tab-toggle>.tab-title-area> .tab-title {
+	width: 100%;
+	border-bottom: 0px solid #9F9F9F;
+}
+
+.tab-toggle>.tab-title-area>.tab-title>.tab-title-item {
+	padding: 0 20px;
+	height: 45px;
+	line-height: 45px;
+	font-size: 16px;
+}
+
+.tab-toggle>.tab-title-area>.tab-title>.tab-title-item.active {
+	color: #e38;
+	font-weight: bold;
+	border-bottom: 2px solid #e38;
+}
+
+
+/*TAB内链接部分*/
+
+.in-line-links:after {
+	display: block;
+	content: ' ';
+	clear: both;
+}
+
+.in-line-links .label {
+	float: left;
+	width: 65px;
+}
+
+.in-line-links .links {
+	float: left;
+	width: 315px;
+}
+
+.in-line-links .links a {
+	color: #666;
+	font-size: 12px;
+	line-height: 12px;
+	padding: 0px 4px;
+	margin-bottom: 8px;
+	border-right: 1px solid #ddd;
+	display: inline-block;
+}
+
+.in-line-links .links a:last-child {
+	border-right: 0;
+}
+
+#tab-jiudian>.tab-content-area>.tab-content>.tab-content-item {
+	width: 440px;
+}
+
+.tab-common {
+	margin-top: 20px;
+}
+
+.tab-common>.tab-title-area {
+	line-height: 40px;
+	height: 40px;
+	background: #fff;
+	padding-bottom: 8px;
+	border-bottom: 2px solid #ddd;
+}
+
+.tab-common>.tab-title-area>.tab-title-left {
+	width: 222px;
+	font-size: 22px;
+	font-weight: 500;
+}
+
+.tab-common>.tab-title-area>.tab-title>.tab-title-item {
+	padding: 0 15px;
+}
+
+.tab-common>.tab-title-area>.tab-title-right {
+	width: 100px;
+	float: right !important;
+	text-align: right;
+}
+
+.tab-common>.tab-content-area>.tab-content-left {
+	width: 222px;
+	height: 100%;
+	background: #f0f0f0;
+}
+
+
+/*。。。。。。。。。。。。。。。。。。。。。。。。。。。。。。*/
+
+.tab-common>.tab-title-area>.tab-title {
+	float: left;
+}
+
+.tab-common>.tab-content-area>.tab-content {
+	float: left;
+	padding: 20px 0 0 20px;
+	background: #fff;
+	width: 880px;
+	height: 412px;
+}
+
+.tab-common>.tab-content-area>.tab-content>.tab-content-item {
+	height: 470px;
+}
+
+/*秋日特惠*/
+#qrth>.tab-content-area>.tab-content {
+	float: left;
+	width: 863px;
+	padding: 13px 0 0 13px;
+	margin: 15px 16px 0 0;
+	background: #fff;
+	height: 412px;
+}
+
+#qrth>.tab-content-area>.tab-content-left {
+	width: 240px;
+	height: 100%;
+	float: left;
+	background: transparent;
+}
+
+#qrth>.tab-content-area>.tab-content>.tab-content-item {
+	height: 430px;
+	width: 835px;
+	display: none;
+}
+
+#lygl>.tab-content-area>.tab-content>.tab-content-item {
+	height: 340px;
+}
+
+#lygl>.tab-content-area>.tab-content {
+	margin: 0;
+}

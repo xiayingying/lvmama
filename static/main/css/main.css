@@ -1,0 +1,170 @@
+.main{
+	min-height: 800px;
+}
+
+#banner {
+	width: 100%;
+	height: 400px;
+}
+
+.main-carrousel-tab{
+	position: relative;
+}
+
+.main-carrousel{
+
+}
+
+.main-tab{
+	position: absolute;
+	top: 20px;
+	left: 50%;
+	transform: translateX(-50%);	
+}
+.title{
+	width:100%;
+	border-bottom:2px solid  #ddd;
+	
+}
+.titles{
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+}
+.main-qrth{
+	
+}
+#qrth>.tab-content-area{
+	
+    background: url(http://s1.lvjs.com.cn/uploads/pc/place2/207123/1509590665821.jpg) no-repeat;
+}
+#qrth>.tab-content-area>.tab-content-left .ul{
+	width:240px;
+	margin:327px auto 0 ;
+    
+}
+#qrth>.tab-content-area>.tab-content-left .ul li {
+    width: 205px;
+    height: 30px;
+    margin-bottom: 10px;
+    line-height: 28px;
+    font-size: 14px;
+    text-align: center;
+}
+
+
+
+.content-arae-z-s {
+    padding: 28px 0 0 20px;
+    height: 186px;
+    background: #f5f5f5;
+    border-radius: 0 0 6px 6px;
+}
+
+.asideNav-list {
+    height: 140px;
+    margin-left: -7px;
+    overflow: hidden;
+    font-size: 0;
+    line-height: 0;
+}
+
+.content-arae-z-s h3 {
+    font-size: 14px;
+    color: #333;
+    line-height: 14px;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+.content-arae-z-s a {
+    display: inline-block;
+    border-left: 1px solid #ccc;
+    padding-left: 8px;
+    margin: 20px 8px 0 -1px;
+    line-height: 13px;
+    font-size: 13px;
+    color: #666;
+    vertical-align: top;
+}
+
+.tuerqi-zuo {
+    width: 650px;
+}
+.tuerqi-zuo img{
+    width: 400px;
+    height:300px;
+}
+
+#lygl .content-img {
+    margin-left: 20px;
+    width: 220px;
+    height: 320px;
+}
+
+
+
+#lygl h3 {
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: normal;
+}
+.tuerqi-you {
+    border: 1px solid #eee;
+    width: 210px;
+}
+
+.tuerqi-you1 {
+    width: 210px;
+    height: 100px;
+}
+#lygl >.tab-content-area{
+	height:340px;
+}
+#lygl >.tab-content-left{
+	height:340px;
+}
+
+#lygl .media {
+    position: relative;
+    height: 110px;
+    border-bottom: 0;
+}
+#lygl .media .media-img{
+    height: 110px;
+    width: 74px;
+    position: absolute;
+}
+#lygl .media .media-contents {
+    margin-left: 85px;
+    position: absolute;
+}
+#lygl .content-content {
+    margin-top: 25px;
+}
+.main-gfhz{
+	margin:40px 0 65px;
+}
+
+.main-gfhz .fl{
+	height:40px;
+	line-height:40px;
+	font-size:22px;
+}
+ .main-gfhz h3 {
+    display: inline;
+    font-weight: normal;
+}
+.main-gfhz .gfhz-content {
+    overflow: hidden;
+    height: 44px;
+    margin-top: 20px;
+}
+.main-gfhz .gfhz-content .gfhz-content-img{
+	width:100%;
+}
+.main-gfhz .gfhz-content .gfhz-content-img li{
+	float:left;
+	margin-left:20px;
+	width:92px;
+}
