@@ -6,6 +6,10 @@
 	height: 30px;
 	background: #FAFAFA;
 }
+.header-container{
+	margin:0 auto ;
+	width:1200px;
+}
 .logo {
 	color: #6c6c6c;
 	height: 30px;
@@ -38,41 +42,72 @@
 	border-right: 0;
 }
 
-.logo-z a img {
+.logo-z .lv-img {
 	vertical-align: middle;
+	display: inline-block;
 }
 
 .logo-y {}
 
 .logo-y li {
 	float: left;
-	height: 30px;
-	line-height: 30px;
-	padding: 0 10px;
+	height: 14px;
+	line-height: 14px;
+	margin:8px 0 0 0;
 }
-
+.logo-y li a{
+	
+}
 .dropdown {
 	position: relative;
 }
 
-.lv_link {
-	padding: 0 17px 0 10px;
+ .dropdown .icon_arrow {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    font-size: 0;
+    overflow: hidden;
+    border: #FAFAFA solid 3px;
+    border-top-color: #9F9F9F;
+    position: absolute;
+    right: 8px;
+    top: 13px;
+}
+.dropdown i{
+	display: inline-block;
+}
+.dropdown .lv_link{
+    padding: 0 17px 0 10px;
 	position: relative;
-	z-index: 3;
 }
-
-.top_down {
-	position: absolute;
-	padding: 5px;
-	left: -1px;
-	top: 21px;
-	border: #ddd solid 1px;
-	z-index: 1;
-	display: none;
-	background: #fff;
+.lv_link{
+    padding: 0 6px;
+	position: relative;
 }
-
-.logo-y li.border_l {
+.dropdown .lv_link_wx{
+    padding: 0 3px 0 6px;
+	position: relative;
+}
+.lv_icon {
+    width: 17px;
+    height: 17px;
+    background:url(../../../img/icon.png) ;
+}
+ .icon_wx {
+    background-position: -20px -90px;
+}
+.icon_wx1 {
+    background-position: -420px -320px;
+}
+.icon_wx2{
+    background-position: -20px -110px;
+}
+.icon_phone {
+	float:left;
+    background-position: 0 -150px;
+}
+.logo-y .border_l {
 	border-left: #CCC solid 1px;
 }
 
@@ -80,38 +115,25 @@
 	position: relative;
 }
 
-.lv_link_wx {
-	padding: 0 3px 0 6px;
-}
 
-.icon_wx {
-	background-position: -20px -90px;
-}
-
-.lv_icon {
-	float: left;
-	width: 17px;
-	height: 17px;
-	margin: 7px 3px 0 0;
-}
-
-.lv_icon,
-.lv_baozhang i {
-	display: inline-block;
-	overflow: hidden;
-	background: url(/../img/v6/header_icon.png) no-repeat;
-	_background: url(/../img/v6/header_icon8.png) no-repeat;
+.top_down {
+    position: absolute;
+    padding: 5px;
+    left: -1px;
+    top: 21px;
+    border: #ddd solid 1px;
+    z-index: 1;
+    display: none;
+    background: #fff;
 }
 
 .lv_link_xcx {
 	padding: 0 3px 0 6px;
 }
 
-.lv_link_wb {
-	padding: 0 1px 0 6px;
-}
 
 .icon_mobile {
+	float: left;
 	background-position: 0 -130px;
 }
 

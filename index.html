@@ -7,6 +7,7 @@
 		<link rel="stylesheet" href="static/main/css/index.css" />
 		<link rel="stylesheet" href="static/tab/jquery.tab.css" />
 		<link rel="stylesheet" href="static/carrousel/jquery.carrousel.css">
+		<link rel="stylesheet" href="static/main/css/header.css" />
 		<style>
 
 		</style>
@@ -15,7 +16,7 @@
 	<body>
 		<div class="header">
 			<div class="header-topbar clear">
-				<div class="container">
+				<div class="header-container">
 					<div class="logo left">
 						<a class="logo-1">郑州</a>
 						<a class="logo-2">[切换]</a>
@@ -23,13 +24,16 @@
 					<div class="logo-z left">
 						<a class="lv">请登录</a>
 						<a class="lv">免费注册</a>
-						<a class="img">
+						<a class="lv-img">
 							<img src="img/everyday_login.gif">
 						</a>
 					</div>
 					<div class="logo-y right clear">
 						<li class="dropdown">
-							<a class="lv_link">我的驴妈妈</a>
+							<a class="lv_link">
+								我的驴妈妈
+								<i class="icon_arrow"></i>
+							</a>
 							<div class="top_down pd_0">
 								<a href="http://www.lvmama.com/myspace/order.do" rel="nofollow">我的订单</a>
 								<a href="http://www.lvmama.com/myspace/account/points.do" rel="nofollow">我的积分</a>
@@ -38,31 +42,38 @@
 								<a href="http://www.lvmama.com/stored/goStoredSearch.do" rel="nofollow" target="_blank">我的礼品卡</a>
 							</div>
 						</li>
-						<li>积分商城</li>
-						<li>会员俱乐部</li>
-						<li>帮助</li>
+						<li>
+							<a class="lv_link">积分商城</a>
+						</li>
+						<li>
+							<a class="lv_link">会员俱乐部</a>
+						</li>
+						<li>
+							<a class="lv_link">帮助</a>
+						</li>
 						<li class="border_l dropdown">
-							<a class="lv_link lv_link_wx" href="javascript:;" rel="nofollow">
+							<a class="lv_link lv_link_wx">
 								<i class="lv_icon icon_wx"></i>
 							</a>
-							<div class="top_down">
-								<img src="http://s2.lvjs.com.cn/img/v3/wechatcode.jpg" width="220" height="90" alt="">
-							</div>
+							
 						</li>
 						<li class="dropdown">
-							<a class="lv_link lv_link_xcx" href="javascript:;" rel="nofollow"><i class="lv_icon icon_xcx"></i></a>
-							<div class="top_down">
-								<img src="http://s3.lvjs.com.cn/img/v6/wechat-mini-program-qrcode.png" width="206" height="92" alt="">
-							</div>
+							<a class="lv_link lv_link_wx">
+								<i class="lv_icon icon_wx1"></i>
+							</a>
+							
 						</li>
-						<li>
-							<a class="lv_link lv_link_wb" onclick="_gaq.push(['_trackEvent', 'weibo', 'click', 'weiboshouye', 5]);" href="http://e.weibo.com/lvmamas" rel="nofollow"><i class="lv_icon icon_wb"></i></a>
+						<li class="dropdown">
+							<a class="lv_link  lv_link_wx">
+									<i class="lv_icon icon_wx2"></i>
+							</a>
+							
 						</li>
-						<li>
-							<a class="lv_link" target="_blank" href="http://shouji.lvmama.com/" rel="nofollow"><i class="lv_icon icon_mobile"></i>手机版</a>
+						<li class="dropdown">
+							<a class="lv_link clear lv_link_wx" ><i class="lv_icon icon_mobile"></i>手机版</a>
 						</li>
 						<li class="border_l dropdown link_call">
-							<a rel="nofollow" href="javascript:;" class="lv_link"><i class="lv_icon icon_phone"></i>国内：<span id="onlyOne"><span>1010-6060</span></span> <i class="icon_arrow"></i></a>
+							<a  class="lv_link clear"><i class="lv_icon icon_phone"></i>国内：<span id="onlyOne"><span>1010-6060</span></span> <i class="icon_arrow"></i></a>
 							<div class="top_down">
 								<span class="lv_icon"></span>
 								<p class="phone-num"><em>国内：</em><i id="onlyTwo">1010-6060</i></p>
@@ -70,14 +81,14 @@
 							</div>
 						</li>
 						<li>
-							<a class="lv_link" href="javascript:;" rel="nofollow">合作中心<i class="icon_arrow"></i></a>
+							<a class="lv_link">合作中心<i class="icon_arrow"></i></a>
 							<div class="top_down pd_0">
-								<a href="http://www.lvmama.com/public/SupplierCooperation?src=pc_pagehome_top" target="_blank">供应商合作</a>
-								<a href="http://ebooking.lvmama.com/vst_ebooking/index.do" target="_blank">EBooking</a>
-								<a href="http://www.lvmama.com/public/AdvertisingCooperation?src=pc_pagehome_top" target="_blank">广告合作</a>
-								<a href="https://union.lvmama.com/" target="_blank">驴妈妈联盟</a>
-								<a href="http://www.lvmama.com/public/BrandCooperation?src=pc_pagehome_top" target="_blank">品牌合作</a>
-								<a href="http://www.lvmama.com/public/InternetMediaCooperation?src=pc_pagehome_top" target="_blank">网络媒体合作</a>
+								<a >供应商合作</a>
+								<a >EBooking</a>
+								<a >广告合作</a>
+								<a >驴妈妈联盟</a>
+								<a >品牌合作</a>
+								<a>网络媒体合作</a>
 							</div>
 						</li>
 
@@ -102,10 +113,10 @@
 						<div class="btn"></div>
 					</div>
 					<div class="jgbz right clear">
-						<li><i class="icon_bz1"></i>价格保证</li>
-						<li><i class="icon_bz2"></i>退订保障</li>
-						<li><i class="icon_bz3"></i>救援保障</li>
-						<li><i class="icon_bz4"></i>24时服务</li>
+						<li><i class="lv_icon icon_bz1"></i>价格保证</li>
+						<li><i class="lv_icon icon_bz2"></i>退订保障</li>
+						<li><i class="lv_icon icon_bz3"></i>救援保障</li>
+						<li><i class="lv_icon icon_bz4"></i>24时服务</li>
 					</div>
 				</div>
 			</div>
@@ -4259,7 +4270,7 @@
 										</div>
 									</div>
 
-								</div>
+							
 								<div class="tab-content-item">
 									<div class="yihan">
 										<div class="row">
@@ -5732,7 +5743,7 @@
 </div>
 		
 		</div>
-
+</div>
 		<div class="footer">
 			<div class="footer-1">
 				<div class="container">
@@ -5826,7 +5837,17 @@
 						<li class="honour_miibeian"><a target="_blank" title="网站备案" href="http://www.miibeian.gov.cn/"></a></li>
 					<li class="honour_cyberpolice"><a target="_blank" title="网络110" href="http://www.cyberpolice.cn/wfjb/"></a></li>
 					<li class="honour_dianping"><a target="_blank" title="网购大家评" href="http://shwg.dianping.com/index.html"></a></li>
-					
+					<li class="honour_itrust"><a target="_blank" title="AAA级信用企业" href="http://www.itrust.org.cn/yz/pjwx.asp?wm=1664396140"></a></li>
+					<li class="honour_sgs"><a target="_blank" title="上海工商" href="http://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&amp;entyId=20110930103539539"></a></li>
+					<li class="honour_knet"><a target="_blank" title="可信网站" href="https://ss.knet.cn/verifyseal.dll?sn=2010101800100002662&amp;comefrom=trust&amp;trustKey=dn&amp;trustValue=www.lvmama.com"></a></li>
+					<li class="honour_szfw"><a target="_blank" title="诚信认证" href="https://credit.szfw.org/CX20160614015657160455.html"></a></li>
+					<li class="honour_zx110"><a target="_blank" title="网络社会征信网" href="http://www.zx110.org/"></a></li>
+					<li class="honour_12318"><a target="_blank" title="旅游违法行为举报"></a></li>
+					<li class="honour_beian"><a target="_blank" title="网监安全" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31010702001030"></a></li>
+					<li class="honour_962020"><a target="_blank" title="服务质量投诉"></a></li>
+					<li class="honour_shjbzx"><a target="_blank" title="举报中心" href="http://www.shjbzx.cn/"></a></li>
+					<li class="honour_12377"><a target="_blank" title="网上有害信息举报专区" href="http://report.12377.cn:13225/toreportinputNormal_anis.do"></a></li>
+					<li class="honour_trustutn"><a target="_blank" id="_pingansec_bottomimagesmall_brand" title="品牌官网" href="http://si.trustutn.org/info?sn=267170510028411481849&amp;certType=1"></a></li>
 					
 					
 					
@@ -5862,9 +5883,35 @@
 			</div>
 		</div>
 		<div class="side">
-		
-		
-		
+		<div class="side-top">
+			<div class="JS_global-sider-btn"><span><i class="bg-ps icon-flower "></i></span>
+				<span><i class="bg-ps icon-global-app"></i></span><strong>APP</strong></div>
+		</div>
+		<div class="side-main">
+			<div class="side-main-top">
+				<a ><i class="bg-ps icon-global-use"></i><span>登录</span></a>
+			</div>
+			<div class="side-main-buttom">
+				<span>注册</span>
+			</div>
+		</div>
+		<div class="side-footer">
+			<div class="Q-A bg-r">
+				<i class="bg-ps icon-inve "></i>
+				<div class="yj">有奖<br>问卷</div>
+			</div>
+			<div class="Q-A">
+				<i class="bg-ps icon_fankui"></i>
+				<div class="yj">反馈</div>
+			</div>
+			<div class="Q-A">
+				<i class="bg-ps icon_sider_gotop"></i>
+				<div class="yj">TOP</div>
+			</div>
+			<div class="Q-A">
+				<i class="bg-ps icon_sider_close"></i>
+			</div>
+		</div>
 		</div>
 
 		<script type="text/javascript" src="static/jquery/jquery.min.js"></script>

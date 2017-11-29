@@ -111,6 +111,10 @@ strong, b {
 .footer-3{
 	
 }
+.footer-3 .container{
+	margin:0 auto;
+	width:1200px;
+}
 .footer-31 {
     padding: 10px 0;
 }
@@ -124,7 +128,7 @@ strong, b {
 }
 
 .footer-32 li {
-    background-image:url(/img/home/17/footer_honour.png);
+    background-image:url(../../../img/footer_honour.png);
     float: left;
     display: inline;
     height: 40px;
@@ -145,8 +149,50 @@ strong, b {
     background-position: 0 -520px;
     width: 91px;
 }
-
-
+.honour_itrust {
+    background-position: 0 -120px;
+    width: 46px;
+}
+.honour_sgs {
+    background-position: 0 -160px;
+    width: 56px;
+}
+.honour_knet {
+    background-position: 0 -200px;
+    width: 91px;
+}
+.honour_szfw {
+    background-position: 0 -240px;
+    width: 91px;
+}
+.honour_zx110 {
+    background-position: 0 -280px;
+    width: 56px;
+}
+.honour_12318 {
+    background-position: 0 -320px;
+    width: 111px;
+}
+.honour_beian {
+    background-position: 0 -360px;
+    width: 110px;
+}
+.honour_962020 {
+    background-position: 0 -400px;
+    width: 111px;
+}
+.honour_shjbzx {
+    background-position: 0 -440px;
+    width: 111px;
+}
+.honour_12377 {
+    background-position: 0 -480px;
+    width: 117px;
+}
+.honour_trustutn {
+    background-position: 0 -560px;
+    width: 105px;
+}
 .footer-33 {
 }
 .jtwz {
